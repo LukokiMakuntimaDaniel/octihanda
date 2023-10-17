@@ -1,0 +1,88 @@
+#div{
+    position:relative ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    vertical-align: middle;
+
+}
+hr{
+    width: 50%;
+    margin-top: -20px;
+    border-color:lightskyblue;
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+section{
+    width: 50%;
+    border: 1px solid lightskyblue;
+}
+
+body{
+    background-color: rgba(128,128,128,0.1);
+}
+label{
+    display: block;
+    margin: auto;
+    width: 50%;
+    
+}
+input{
+    display: block;
+   
+    margin-bottom: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 20px;
+
+}
+
+
+button#logar{
+    width: 50%;
+    display: block;
+    margin: auto;
+    background-color: rgba(0, 0, 255, 0.5);
+    height: 30px;
+    border:0px;
+    color: white;
+    margin-bottom: 15px;
+    
+}
+
+button#logar:hover{
+    background-color: rgba(0, 0, 255, 0.7);
+}
+
+button#logar:active{
+    background-color: rgba(0, 0, 255, 0.8);
+}
+
+article{
+    width: 100%;
+    background-color: rgba(64, 64, 209, 0.3);
+    height: 40px;
+
+
+}
+
+article a{
+    float: right;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    height: 20px;
+    border: 1px solid yellow;
+    background-color: white;
+}
+
+article span{
+    margin-left: 35px;
+    margin-top: 10px;
+    display: none;
+}

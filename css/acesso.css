@@ -1,0 +1,99 @@
+article{
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+   }
+    span{
+        display: block;
+        
+    }
+
+    video{
+        width: 100%;
+        display: block;
+    }
+
+    video:hover{
+        border: 2px solid white;
+    }
+    video:active{
+        border: 3px solid white;
+    }
+
+    body, html{
+        margin: 0px;
+    }
+    header{
+        background-color: lightskyblue;
+        margin: 0;
+        border: 1px solid white;
+        position: relative;
+    }
+    div{
+        margin: 0px;
+        position: relative;
+        height: 100vh;
+    }
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    aside img{
+        margin-top: 30px;
+        width: 50px;
+        margin-bottom: 50px;
+    }
+    aside#perfil{
+        background-color: lightskyblue;
+        height: 100vh;
+        position: absolute;
+        right: 0;
+        display: none;
+    }
+    header  button{
+        position: absolute;
+        right: 0;
+        top: 35px;
+        background-color: rgba(0, 0, 255, 0.5);
+        border: 0px solid;
+        color: white;
+        height: 30px;
+    }
+    aside label{
+        display: block;
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+
+    header  button:hover{
+background-color: rgba(0, 0, 255, 0.7);
+}
+
+header  button:active{
+     background-color: rgba(0, 0, 255, 0.9);
+}
+#videos{
+    margin-top: 15px;
+}
+#ola{
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+input, textarea{
+    display: block;
+    margin-bottom: 10px;
+}
+form{
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+    z-index: 2;
+}
+button{
+    display: block;
+    margin: auto;
+    
+}

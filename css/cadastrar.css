@@ -1,0 +1,51 @@
+button{
+    display: block;
+    margin: auto;
+}
+input{
+    display: block;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 20px;
+
+}
+label{
+    width: 50%;
+    margin: auto;
+
+}
+div{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+section{
+    width: 50%;
+}
+fieldset{
+    border: 0px;
+}
+legend{
+    text-transform: uppercase;
+}
+
+button{
+    width: 50%;
+    display: block;
+    margin: auto;
+    background-color: rgba(0, 0, 255, 0.5);
+    height: 30px;
+    border:0px;
+    color: white;
+    margin-bottom: 15px;
+    
+}
+
+button:hover{
+    background-color: rgba(0, 0, 255, 0.7);
+}
+
+button:active{
+    background-color: rgba(0, 0, 255, 0.8);
+}
